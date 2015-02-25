@@ -13,6 +13,11 @@
 		9F7E62451A95C45C00501021 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7E62441A95C45C00501021 /* Images.xcassets */; };
 		9F7E62481A95C45C00501021 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7E62461A95C45C00501021 /* LaunchScreen.xib */; };
 		9F7E62541A95C45C00501021 /* RPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E62531A95C45C00501021 /* RPSTests.swift */; };
+		9F7E62671A96BB4900501021 /* scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7E62651A96BB4900501021 /* scissors.png */; };
+		9F7E62681A96BB4900501021 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7E62661A96BB4900501021 /* paper.png */; };
+		9F7E626A1A96BD8D00501021 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7E62691A96BD8D00501021 /* rock.png */; };
+		9F7E626C1A96BF2000501021 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E626B1A96BF2000501021 /* ResultController.swift */; };
+		9F7E626E1A96C44F00501021 /* RPSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E626D1A96C44F00501021 /* RPSModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		9F7E624D1A95C45C00501021 /* RPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7E62521A95C45C00501021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F7E62531A95C45C00501021 /* RPSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSTests.swift; sourceTree = "<group>"; };
+		9F7E62651A96BB4900501021 /* scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissors.png; sourceTree = "<group>"; };
+		9F7E62661A96BB4900501021 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		9F7E62691A96BD8D00501021 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
+		9F7E626B1A96BF2000501021 /* ResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		9F7E626D1A96C44F00501021 /* RPSModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +87,17 @@
 		9F7E623A1A95C45C00501021 /* RPS */ = {
 			isa = PBXGroup;
 			children = (
+				9F7E62651A96BB4900501021 /* scissors.png */,
+				9F7E62691A96BD8D00501021 /* rock.png */,
+				9F7E62661A96BB4900501021 /* paper.png */,
 				9F7E623D1A95C45C00501021 /* AppDelegate.swift */,
 				9F7E623F1A95C45C00501021 /* ViewController.swift */,
 				9F7E62411A95C45C00501021 /* Main.storyboard */,
 				9F7E62441A95C45C00501021 /* Images.xcassets */,
 				9F7E62461A95C45C00501021 /* LaunchScreen.xib */,
 				9F7E623B1A95C45C00501021 /* Supporting Files */,
+				9F7E626B1A96BF2000501021 /* ResultController.swift */,
+				9F7E626D1A96C44F00501021 /* RPSModel.swift */,
 			);
 			path = RPS;
 			sourceTree = "<group>";
@@ -193,7 +208,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F7E62431A95C45C00501021 /* Main.storyboard in Resources */,
+				9F7E62681A96BB4900501021 /* paper.png in Resources */,
+				9F7E626A1A96BD8D00501021 /* rock.png in Resources */,
 				9F7E62481A95C45C00501021 /* LaunchScreen.xib in Resources */,
+				9F7E62671A96BB4900501021 /* scissors.png in Resources */,
 				9F7E62451A95C45C00501021 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +232,8 @@
 			files = (
 				9F7E62401A95C45C00501021 /* ViewController.swift in Sources */,
 				9F7E623E1A95C45C00501021 /* AppDelegate.swift in Sources */,
+				9F7E626C1A96BF2000501021 /* ResultController.swift in Sources */,
+				9F7E626E1A96C44F00501021 /* RPSModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
